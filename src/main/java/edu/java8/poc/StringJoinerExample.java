@@ -18,5 +18,14 @@ public class StringJoinerExample {
 
         // Displaying the output String
         System.out.println(str);
+
+        StringJoiner strOut = new StringJoiner("#");
+        strOut.add("tomcat");
+        strOut.add("apache");
+        strOut.add("Jboss");
+
+        strOut.merge(str);
+        System.out.println(strOut);
+
     }
 }
