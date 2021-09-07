@@ -1,6 +1,5 @@
 package edu.java8.poc;
 
-import java.util.List;
 import java.util.StringJoiner;
 
 public class StringJoinerExample {
@@ -26,6 +25,5 @@ public class StringJoinerExample {
 
         strOut.merge(str);
         System.out.println(strOut);
-
     }
 }
