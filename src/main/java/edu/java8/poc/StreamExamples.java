@@ -8,7 +8,7 @@ public class StreamExamples {
 
     public static void main(String[] args) {
 
-        List<String> names = Arrays.asList("howard", "camp", "oxford", "Mellon", "Bits");
+        List<String> names = Arrays.asList("Howard", "Camp", "Oxford", "Mellon", "Bits");
 
         String result = names.stream()
                 .collect(Collectors.joining("#\n"));
@@ -17,7 +17,7 @@ public class StreamExamples {
 
         //numbers
         List<Integer> numbers = Arrays.asList(1,2,3,4,5,6,7,8,9);
-        
-        
+
+//        numbers.stream().map().
     }
 }
