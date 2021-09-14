@@ -11,5 +11,6 @@ public class StreamQuery {
                 .limit(10)
                 .forEach(System.out::println);
 
+
     }
 }
