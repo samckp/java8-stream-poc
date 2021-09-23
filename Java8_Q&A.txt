@@ -1,0 +1,15 @@
+Q. What is a Functional Interface? What is SAM Interface?
+Answer:
+A Functional Interface is an interface, which contains one and only one abstract method. Functional Interface is also known as SAM Interface because it contains only one abstract method.
+
+SAM Interface stands for Single Abstract Method Interface. Java SE 8 API has defined many Functional Interfaces.
+
+Q. How to write own FunctionalInterface
+Answer:
+We need to follow these rules to define a Functional Interface:
+
+Define an interface with one and only one abstract method.
+We cannot define more than one abstract method.
+Use @FunctionalInterface annotation in interface definition.
+We can define any number of other methods like Default methods, Static methods.
+If we override java.lang.Object class’s method as an abstract method, which does not count as an abstract method.
