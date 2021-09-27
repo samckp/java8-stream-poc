@@ -1,9 +1,8 @@
-package edu.java8.poc;
+package edu.java8.poc.stream;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 class Item{
     int id;

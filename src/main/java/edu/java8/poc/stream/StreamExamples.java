@@ -1,4 +1,4 @@
-package edu.java8.poc;
+package edu.java8.poc.stream;
 
 import java.util.Arrays;
 import java.util.List;
