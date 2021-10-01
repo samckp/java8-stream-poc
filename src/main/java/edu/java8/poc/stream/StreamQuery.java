@@ -54,25 +54,19 @@ public class StreamQuery {
         itemsList.add(new Item(6,"HP Laptop",71000f));
         itemsList.add(new Item(7,"Acer Laptop",41000f));
 
-
          itemsList.stream()
                 .filter(p-> p.price > 50000)
                 .map(p->p.price)
                 .collect(Collectors.toList())
                 .forEach(System.out::println);
 
-
          // sorted order by price
         List<Item> prices = itemsList.stream().sorted(
                 Comparator.comparingDouble(Item::getPrice))
                 .collect(Collectors.toList())
-
                 ;
-        //.forEach(System.out::println);
 
-
-        for (Item item : prices
-             ) {
+        for (Item item : prices) {
             System.out.println("ITEMS ::"+ item.getPrice());
         }
 

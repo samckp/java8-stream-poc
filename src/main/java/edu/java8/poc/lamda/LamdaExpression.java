@@ -18,6 +18,7 @@ public class LamdaExpression {
         System.out.println( "remainder : " + exp.operate(45, 6, remainder));
     }
 
+
     private int operate(int a, int b, MathOperation mathOperation){
         return mathOperation.operation(a, b);
     }
