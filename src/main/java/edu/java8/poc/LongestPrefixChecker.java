@@ -6,7 +6,7 @@ public class LongestPrefixChecker {
 
     public static void main(String[] args) {
 
-        String[] arr = {"mint", "mini", "mineral"};  //{"keeping","keepers","keeptyr"}
+        String[] arr = {"flower","flower","flower","flower"};//"mint", "mini", "mineral"};  //{"keeping","keepers","keeptyr"}
 
         System.out.println("longest prefix :: " + prefixChecker(arr));
     }
