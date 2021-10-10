@@ -2,3 +2,4 @@
 
 Java 8 stream application depicts parallel processing capability.
 Collector.joining added
+Java Interview puzzles added
