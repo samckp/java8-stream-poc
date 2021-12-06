@@ -1,6 +1,7 @@
 package edu.java8.poc.stream;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -25,5 +26,14 @@ public class StreamObject {
         //4.
         IntStream stream2 = Arrays.stream(new int[]{1,2,3,4,5,6,7,8});
             stream2.forEach(System.out::println);
+
+       //Find minimum from list
+        List<Integer> stream3 = List.of(14,2,13,24);
+        System.out.println("minimum:: " + stream3.stream().min((x, y) -> x.compareTo(y)).get());
+
+//Find minimum from list
+        List<Integer> stream4 = List.of(1,24,23,64);
+        System.out.println("maximum:: " + stream4.stream().min((x, y) -> x.compareTo(y)).get());
+
     }
 }
