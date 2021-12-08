@@ -1,5 +1,7 @@
 package edu.java8.poc;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.StringJoiner;
 
 public class StringJoinerExample {
@@ -25,5 +27,11 @@ public class StringJoinerExample {
 
         strOut.merge(str);
         System.out.println(strOut);
+
+        //count blank
+        List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
+
+        long countBlank = strings.stream().filter(s->s.isEmpty()).count();
+        System.out.println("Count of Blanks : "+ countBlank);
     }
 }
