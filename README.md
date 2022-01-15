@@ -1,6 +1,5 @@
 # java8-stream-poc
 
-Java 8 stream application depicts parallel processing capability.
-Collector.joining added.
-Java Interview puzzles added.
-FlatMap example added.
+Java 8 stream application depicts parallel processing capability.<br>
+Collector.joining added<br>
+Java Interview puzzles added
